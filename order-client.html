@@ -667,22 +667,46 @@
                             </div>
                           </div>
                           <div class="send-form__col tab-pane not-active" data-content="tab-self-pickup">
-                            <div class="form-item">
+                            <div class="form-item form-item_select">
                               <label for="city">Місто</label>
-                              <input type="text" id="city" name="city" required>
+                              <SELECT class="select-search" name="city" id="city3" required>
+                                <option disabled selected>-вибрати</option>
+                                <option value="Киев">Киев</option>
+                                <option value="0">Одесса</option>
+                                <option value="0">Днепр</option>
+                                <option value="0">Чернигов</option>
+                                <option value="0">Харьков</option>
+                                <option value="0">Житомир</option>
+                                <option value="0">Полтава</option>
+                                <option value="0">Херсон</option>
+                                <option value="0">Запорожье</option>
+                                <option value="0">Луганск</option>
+                                <option value="0">Донецк</option>
+                                <option value="0">Винница</option>
+                                <option value="0">Николаев</option>
+                                <option value="0">Кировоград</option>
+                                <option value="0">Суммы</option>
+                                <option value="0">Львов</option>
+                                <option value="0">Черскассы</option>
+                                <option value="0">Хмельницк</option>
+                                <option value="0">Волынь</option>
+                                <option value="0">Ровно</option>
+                                <option value="0">Ивано-Франковск</option>
+                                <option value="0">Тернополь</option>
+                                <option value="0">Закарпатье</option>
+                                <option value="0">Черновцы</option>
+                              </SELECT>
                             </div>
                             <div class="form-item form-item_select">
                               <label for="delivery-company">Служба доставки</label>
                               <SELECT class="select" name="delivery-company" required>
                                 <option disabled selected>Виберіть службу доставки</option>
                                 <option value="0">Нова Пошта</option>
-                                <option value="1">JustIn</option>
-                                <option value="2">Meest</option>
                               </SELECT>
                             </div>
                             <div class="form-item form-item_select">
                               <label for="branch">Відділення</label>
-                              <SELECT class="select" name="branch" required>
+                              <SELECT class="select-search" name="branch" required>
                                 <option disabled selected>-вибрати</option>
                                 <option value="0">1</option>
                                 <option value="1">2</option>
