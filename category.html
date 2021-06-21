@@ -734,17 +734,16 @@
                         </div>
                         <div class="filters__body">
                           <div class="filters-form">
-                            <div class="filters-form__item">
-                              <input type="checkbox" name="f[price][]" id="checkbox_14" value="to1500">
-                              <label for="checkbox_14"><span>до 1500</span></label>
+                            <div class="filters-form__range-slider">
+                              <input class="js-range-slider" type="text" value="">
                             </div>
-                            <div class="filters-form__item">
-                              <input type="checkbox" name="f[price][]" id="checkbox_24" value="from1501">
-                              <label for="checkbox_24"><span>від 1501 до 3000</span></label>
-                            </div>
-                            <div class="filters-form__item">
-                              <input type="checkbox" name="f[price][]" id="checkbox_25" value="from3000">
-                              <label for="checkbox_25"><span>від 3000</span></label>
+                            <div class="filters-form__extra-controls">
+                              <div class="filters-form__control-outer"><span>від</span>
+                                <input class="js-input-from" type="text">
+                              </div>
+                              <div class="filters-form__control-outer"><span>до</span>
+                                <input class="js-input-to" type="text">
+                              </div>
                             </div>
                             <div class="form-action">
                               <button class="btn" type="submit">Фільтрувати</button>
